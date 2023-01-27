@@ -19,7 +19,7 @@
 .topAccountRight {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .Navo1 a {
@@ -136,7 +136,7 @@
   right: 5%;
   top: 20%;
   transition: 0.3s;
-  transform: translatex(200%);
+  transform: translatex(300%);
 }
 
 .imgin:hover .flowbut {
