@@ -3,9 +3,6 @@ import { Component, Fragment } from "react";
 import Datastat from "./Datastate";
 
 class PopularSales extends Component {
-  // handelClicked() {
-  //   console.log("clicked");
-  // }
   render() {
     const Mapstate = Datastat.map((cardo) => {
       return (
@@ -26,7 +23,7 @@ class PopularSales extends Component {
           <div className="container">
             <div className="d-flex justify-content-between mt-5">
               {/* <h1 onClick={this.handelClicked}>Popular Sales</h1> */}
-              <h1 onClick={this.handelClicked}>Popular Sales</h1>
+              <h1>Popular Sales</h1>
               <a className="viewMore">View More</a>
             </div>
             <div className="row">{Mapstate}</div>

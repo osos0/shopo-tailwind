@@ -3,12 +3,16 @@
 const { Component, Fragment } = require("react");
 
 class Ad extends Component {
-  render() {
-    const days = new Date().getDay();
-    const Hours = new Date().getHours();
-    const Minutes = new Date().getMinutes();
-    const Secondes = new Date().getSeconds();
+  state = {
+    days: new Date().getDay(),
+    Hours: new Date().getHours(),
+    Minutes: new Date().getMinutes(),
+    Secondes: new Date().getSeconds(),
+  };
 
+  // setTimeout(changeTheNumber, 2000);
+
+  render() {
     return (
       <Fragment>
         <section>
@@ -176,19 +180,19 @@ class Ad extends Component {
               <div className="col-lg-6 wooAd">
                 <div className="row timer">
                   <div className="col-3 timerH">
-                    <div>{days}</div>
+                    <div>{this.state.days}</div>
                     <p>Days</p>
                   </div>
                   <div className="col-3 timerH">
-                    <div>{Hours}</div>
+                    <div>{this.state.Hours}</div>
                     <p>Hours</p>
                   </div>
                   <div className="col-3 timerH">
-                    <div>{Minutes}</div>
+                    <div>{this.state.Minutes}</div>
                     <p>Minutes</p>
                   </div>
                   <div className="col-3 timerH">
-                    <div>{Secondes}</div>
+                    <div>{this.state.Secondes}</div>
                     <p>Secondes</p>
                   </div>
                 </div>
@@ -273,7 +277,7 @@ class Ad extends Component {
                 </div>
               </div>
               <div className="col-md-6 LabRightAd">
-                <div className="row">
+                <div className="row ">
                   <div className="col-5 picon">
                     <img src={require("./imges/product-img-6.jpg")} />
                   </div>
@@ -322,19 +326,19 @@ class Ad extends Component {
               <div className="col-lg-2 col-sm-6 roundPic">
                 <img src={require("./imges/saller-1.png")} />
               </div>
-              <div className="col-lg-2 col-sm-6">
+              <div className="col-lg-2 col-sm-6 roundPic">
                 <img src={require("./imges/saller-2.png")} />
               </div>
-              <div className="col-lg-2 col-sm-6">
+              <div className="col-lg-2 col-sm-6 roundPic">
                 <img src={require("./imges/saller-3.png")} />
               </div>
-              <div className="col-lg-2 col-sm-6">
+              <div className="col-lg-2 col-sm-6 roundPic">
                 <img src={require("./imges/saller-4.png")} />
               </div>
-              <div className="col-lg-2 col-sm-6">
+              <div className="col-lg-2 col-sm-6 roundPic">
                 <img src={require("./imges/saller-5.png")} />
               </div>
-              <div className="col-lg-2 col-sm-6">
+              <div className="col-lg-2 col-sm-6 roundPic">
                 <img src={require("./imges/saller-6.png")} />
               </div>
             </div>

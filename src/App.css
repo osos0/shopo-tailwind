@@ -101,7 +101,14 @@
   padding-top: 30px;
   position: relative;
   overflow: hidden;
+  /* border: 1px solid red; */
 }
+
+.imgin:hover {
+  opacity: 90%;
+  transform: scale(110%);
+}
+
 .imgin img {
   width: 60%;
   height: 150px;
@@ -251,6 +258,14 @@
   color: black;
   margin: auto 10px;
   cursor: pointer;
+}
+
+/* section */
+
+.roundPic:hover {
+  transform: scale(120%) rotate(5deg);
+
+  /* transition: 0.1s ease-in-out; */
 }
 
 /* section */
