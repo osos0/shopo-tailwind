@@ -105,7 +105,6 @@
 }
 
 .imgin:hover {
-  opacity: 90%;
   transform: scale(110%);
 }
 
