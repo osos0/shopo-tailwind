@@ -1,14 +1,22 @@
 :root {
   --main-color: #ffbb38;
+  --background-color: #f8f8f8;
 }
 
 * {
   box-sizing: border-box;
+  /* background-color: orange; */
+  background-color: var(--background-color);
 }
 
 .Navo1 {
   margin: 10px 0;
   border-bottom: 1px solid rgb(220, 220, 220);
+  /* background-color: white; */
+}
+
+.Navo2 {
+  background-color: var(--background-color);
 }
 
 .topAccount {
@@ -35,8 +43,23 @@
 }
 
 .Navo3 {
+  background-color: var(--main-color) !important;
+  height: auto;
+}
+.Navo3 .container {
+  background-color: #ffbb38 !important;
+  padding: 10px;
+}
+
+.Navo3 .container-fluid {
+  /* margin-bottom: -12px !important; */
+
   background-color: var(--main-color);
-  height: 60px;
+  transform: translateY(19px);
+}
+
+.fixbackground {
+  background-color: var(--main-color);
 }
 
 #btnNav {
@@ -44,6 +67,9 @@
   border-radius: 0;
   border: black 2px solid;
   padding: 5px 20px;
+}
+#navbarScroll {
+  padding: 0 0 20px 30px;
 }
 
 #navbarScrollingDropdown1 {
