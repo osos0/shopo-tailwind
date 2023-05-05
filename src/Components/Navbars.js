@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Fragment } from "react";
 import {
   Nav,
@@ -22,7 +20,7 @@ function Navbars() {
               <a href="">Support</a>
             </div>
             <div className="col-sm-6 topAccountRight">
-              <Navbar bg="light">
+              <Navbar bg="red">
                 <Container>
                   <Navbar.Toggle aria-controls="basic-navbar-nav" />
                   <Navbar.Collapse id="basic-navbar-nav">

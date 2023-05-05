@@ -6,7 +6,7 @@
 * {
   box-sizing: border-box;
   /* background-color: orange; */
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
 }
 
 .Navo1 {
@@ -381,10 +381,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: transparent;
 }
 
 .disinsidecon span {
   color: #ffbb38;
+  background-color: transparent;
+}
+.disinsidecon h1,
+.disinsidecon p {
+  background-color: transparent;
 }
 
 .Eform {

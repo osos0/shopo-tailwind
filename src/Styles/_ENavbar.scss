@@ -1,0 +1,74 @@
+@use "./Vars" as *;
+
+* {
+  font-size: 20px;
+  // background-color: $bg-color;
+}
+.nav1 {
+  padding: 10px 0;
+  .firCon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .firConChild {
+      margin-right: 20px;
+    }
+  }
+  .selectCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.nav2 {
+  padding: 10px 0;
+
+  .secCon {
+    display: flex;
+    align-items: center;
+    .secConChildOne {
+      text-align: start;
+      margin: auto;
+    }
+    .secConChildTwo {
+      text-align: center;
+      form {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+      }
+    }
+    .secConChildThree {
+      text-align: end;
+      overflow: hidden;
+    }
+  }
+}
+
+.nav3 {
+  background-color: $Main-Yellow;
+  padding: 0;
+  .nav3Con {
+    padding: 0;
+    .dropdownCon {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .firstDropdown {
+        background-color: white;
+        font-size: 23px;
+        font-weight: bold;
+        transform: translateY(10px);
+      }
+    }
+
+    .navbar-expand-lg {
+      padding: 0;
+    }
+  }
+}

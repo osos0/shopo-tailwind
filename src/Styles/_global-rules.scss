@@ -1,0 +1,47 @@
+@use "./Vars" as *;
+
+* {
+  box-sizing: border-box;
+  // background-color: $bg-color;
+}
+
+select {
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  font-size: 20px;
+  margin: 0 5px;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+}
+
+input {
+  outline: none;
+  border: 1px solid $border-color;
+  padding: 5px;
+  border-radius: 10px;
+  margin: auto 5px;
+}
+
+svg {
+  color: black;
+  margin: auto 8px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 5px 20px;
+}
+
+form {
+  padding: 5px;
+}
+
+li {
+  list-style-type: none;
+}
+
+// .back {
+//   background-color: $bg-color;
+// }
