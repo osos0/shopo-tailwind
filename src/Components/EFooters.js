@@ -1,9 +1,11 @@
-import { Component, Fragment } from "react";
+import React from "react";
+import { Fragment } from "react";
+import { Link } from "react-router-dom";
 
-class Discount extends Component {
-  render() {
-    return (
-      <Fragment>
+const EFooters = () => {
+  return (
+    <>
+      <div className="FootersContainer">
         <section className="foot1">
           <div className="row disCon">
             <div className="disinsidecon">
@@ -18,36 +20,36 @@ class Discount extends Component {
             </div>
           </div>
         </section>
-        <section className="foot2">
-          <img src={require("../Components/imges/logo.jpg")} />{" "}
+        <section className="text-center m-4">
+          <img src={require("../Components/imges/logo.jpg")} alt="logo" />
         </section>
         <section className="foot3">
           <div className="container">
             <div className="row">
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-sm-6">
                 <h3>About Us</h3>
                 <p>
                   We know there are a lot of threa developers our but we pride
                   into a firm in the industry.
                 </p>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-sm-6">
                 <h3>Feature</h3>
-                <a href="#">About Us</a>
-                <a href="#">Terms Condition</a>
-                <a href="#">Best Products</a>
+                <Link to="#">About Us</Link>
+                <Link to="#">Terms Condition</Link>
+                <Link to="#">Best Products</Link>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-sm-6">
                 <h3>General Links</h3>
-                <a href="">Blog</a>
-                <a href="">Tracking Order</a>
-                <a href="">Become Seller</a>
+                <Link to="#">Blog</Link>
+                <Link to="#">Tracking Order</Link>
+                <Link to="#">Become Seller</Link>
               </div>
-              <div className="col-lg-2">
+              <div className="col-lg-2 col-sm-6">
                 <h3>Helpful</h3>
-                <a href="">Flash Sale</a>
-                <a href="">FAQ</a>
-                <a href="">Support</a>
+                <Link to="#">Flash Sale</Link>
+                <Link to="#">FAQ</Link>
+                <Link to="3">Support</Link>
               </div>
             </div>
           </div>
@@ -61,14 +63,17 @@ class Discount extends Component {
                 </p>
               </div>
               <div className="col-lg-6 text-center">
-                <img src={require("../Components/imges/payment-getways.png")} />{" "}
+                <img
+                  src={require("../Components/imges/payment-getways.png")}
+                  alt="visa"
+                />
               </div>
             </div>
           </div>
         </section>
-      </Fragment>
-    );
-  }
-}
+      </div>
+    </>
+  );
+};
 
-export default Discount;
+export default EFooters;

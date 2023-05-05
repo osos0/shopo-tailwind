@@ -20,11 +20,6 @@ input {
   margin: auto 5px;
 }
 
-svg {
-  color: black;
-  margin: auto 8px;
-}
-
 button {
   background-color: black;
   color: white;
@@ -37,6 +32,37 @@ form {
 
 li {
   list-style-type: none;
+}
+
+h4 {
+  font-size: 23px;
+  padding: 5px;
+}
+
+p {
+  font-size: 18px;
+  padding: 5px;
+}
+
+svg {
+  color: black;
+  font-size: 20px;
+  margin: auto 8px;
+}
+
+a {
+  margin: 10px 0;
+  color: black;
+  text-decoration: none;
+}
+
+span {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.back {
+  background-color: #f8f8f8;
 }
 
 * {
@@ -102,10 +128,112 @@ li {
 }
 .nav3 .nav3Con .dropdownCon .firstDropdown {
   background-color: white;
-  font-size: 23px;
-  font-weight: bold;
+  padding: 0 60px 0 10px;
+  font-size: 21px;
   transform: translateY(10px);
 }
 .nav3 .nav3Con .navbar-expand-lg {
   padding: 0;
+}
+
+.picsCon {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  margin-bottom: 30px;
+}
+.picsCon .picsConleft {
+  height: 450px;
+}
+.picsCon .picsConleft img {
+  width: 100%;
+  height: 100%;
+}
+.picsCon .picsConRigth {
+  height: 450px;
+}
+.picsCon .picsConRigth img {
+  width: 100%;
+  height: 50%;
+}
+
+.fourCon svg {
+  color: #ffbb38;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.gamerWorled .imgin {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 5px;
+  position: relative;
+  overflow: hidden;
+}
+.gamerWorled .imgin .imgCon {
+  background-color: white;
+  width: 100%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gamerWorled .imgin img {
+  max-width: 60%;
+  max-height: 100%;
+}
+.gamerWorled .imgin .linkCon {
+  background-color: white;
+}
+.gamerWorled .imgin .priOne {
+  color: gray;
+  -webkit-text-decoration: line-through 1px;
+          text-decoration: line-through 1px;
+  margin: 0 4px;
+}
+.gamerWorled .imgin .priTwo {
+  color: red;
+}
+.gamerWorled .imgin:hover {
+  transform: scale(110%);
+}
+
+.disCon {
+  background-image: url("../Components/imges/discount-banner-1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.disCon span {
+  color: #ffbb38;
+  font-size: 40px;
+}
+.disCon button {
+  background-color: #ffbb38;
+  border: 1px solid #ffbb38;
+}
+
+.foot3 {
+  margin-bottom: 10px;
+}
+.foot3 .container {
+  padding: 40px 0;
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+}
+.foot3 a {
+  display: block;
+}
+
+.FootersContainer {
+  background-color: #f8f8f8;
 }/*# sourceMappingURL=main.css.map */

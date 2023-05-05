@@ -1,6 +1,5 @@
 import React from "react";
 import "../Styles/_ENavbar.scss";
-// import { Nav, Navbar, Container, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -11,7 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import logo from "./imges/logo.svg";
 
-const ENavbar = () => {
+function ENavbar() {
   return (
     <>
       <div className="navs back">
@@ -53,7 +52,7 @@ const ENavbar = () => {
               </div>
               <div className="col-lg-6 col-sm-12 secConChildTwo">
                 <form>
-                  <input type="text" name="search" value="search" />
+                  <input placeholder="Search" />
                   <button>Search</button>
                 </form>
               </div>
@@ -233,6 +232,6 @@ const ENavbar = () => {
       </div>
     </>
   );
-};
+}
 
 export default ENavbar;
