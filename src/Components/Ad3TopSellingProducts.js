@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Ad3TopSellingProducts = () => {
   return (
@@ -81,7 +80,6 @@ const Ad3TopSellingProducts = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="col-6 LabLeftAd"></div> */}
           </div>
         </div>
       </section>
