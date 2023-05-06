@@ -130,68 +130,6 @@ function ENavbar() {
                         </li>
                       </ul>
                     </li>
-                    {/* <li className="nav-item dropdown">
-                      <Link
-                        className="nav-link dropdown-toggle"
-                        href="#"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Shop
-                      </Link>
-                      <ul className="dropdown-menu">
-                        <li>
-                          <Link className="dropdown-item" href="#">
-                            Action
-                          </Link>
-                        </li>
-                        <li>
-                          <Link className="dropdown-item" href="#">
-                            Another action
-                          </Link>
-                        </li>
-                        <li>
-                          <hr className="dropdown-divider" />
-                        </li>
-                        <li>
-                          <Link className="dropdown-item" href="#">
-                            Something else here
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="nav-item dropdown">
-                      <Link
-                        className="nav-link dropdown-toggle"
-                        href="#"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Pages
-                      </Link>
-                      <ul className="dropdown-menu">
-                        <li>
-                          <Link className="dropdown-item" href="#">
-                            Action
-                          </Link>
-                        </li>
-                        <li>
-                          <Link className="dropdown-item" href="#">
-                            Another action
-                          </Link>
-                        </li>
-                        <li>
-                          <hr className="dropdown-divider" />
-                        </li>
-                        <li>
-                          <Link className="dropdown-item" href="#">
-                            Something else here
-                          </Link>
-                        </li>
-                      </ul>
-                    </li> */}
                     <li className="nav-item">
                       <Link
                         className="nav-link active"
