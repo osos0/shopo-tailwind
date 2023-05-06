@@ -106,13 +106,18 @@ function ENavbar() {
                       </Link>
                       <ul className="dropdown-menu">
                         <li>
-                          <Link className="dropdown-item" href="#">
-                            Action
+                          <Link className="dropdown-item" to="/">
+                            Home
                           </Link>
                         </li>
                         <li>
-                          <Link className="dropdown-item" href="#">
-                            Another action
+                          <Link className="dropdown-item" to="/shop">
+                            Shop
+                          </Link>
+                        </li>
+                        <li>
+                          <Link className="dropdown-item" to="/contactus">
+                            ContactUs
                           </Link>
                         </li>
                         <li>
@@ -125,7 +130,7 @@ function ENavbar() {
                         </li>
                       </ul>
                     </li>
-                    <li className="nav-item dropdown">
+                    {/* <li className="nav-item dropdown">
                       <Link
                         className="nav-link dropdown-toggle"
                         href="#"
@@ -186,12 +191,12 @@ function ENavbar() {
                           </Link>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                       <Link
                         className="nav-link active"
                         aria-current="page"
-                        href="#"
+                        to="/"
                       >
                         Home
                       </Link>
@@ -200,18 +205,18 @@ function ENavbar() {
                       <Link
                         className="nav-link active"
                         aria-current="page"
-                        href="#"
+                        to="/shop"
                       >
-                        About
+                        Shop
                       </Link>
                     </li>
                     <li className="nav-item">
                       <Link
                         className="nav-link active"
                         aria-current="page"
-                        href="#"
+                        to="/contactus"
                       >
-                        Contact
+                        Contact Us
                       </Link>
                     </li>
                     <li className="nav-item">
